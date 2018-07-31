@@ -4,21 +4,16 @@ body {
 }
 
 h1 {
-  font-family: verdana;
   font-weight: normal;
   font-size: 50px;
-  color: white;
   text-align: center;
 }
 h2 {
-  font-family: verdana;
   font-weight: 300;
   font-size: 42px;
-  color: white;
 }
 
 p {
-  font-family: verdana;
   font-size: 21px;
   color: gray;
 }
@@ -30,4 +25,11 @@ p {
 
 .footer p{
   text-align: right;
+}
+
+h1, h2, p {
+  font-family: verdana;
+}
+h1, h2 {
+  color: white;
 }
